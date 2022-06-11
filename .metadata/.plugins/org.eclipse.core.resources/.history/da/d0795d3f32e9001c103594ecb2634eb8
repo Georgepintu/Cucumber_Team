@@ -1,0 +1,15 @@
+package pages;
+
+import org.openqa.selenium.WebDriver;
+
+public class LoginPage {
+	WebDriver driver;
+	
+	//Elements List
+	
+	@FindBY
+	public void name() {
+		
+	}
+
+}

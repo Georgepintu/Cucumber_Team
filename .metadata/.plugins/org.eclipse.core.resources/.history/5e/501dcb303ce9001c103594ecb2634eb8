@@ -1,0 +1,25 @@
+package steps;
+
+import org.openqa.selenium.support.PageFactory;
+
+import cucumber.api.java.After;
+import cucumber.api.java.Before;
+import pages.LoginPage;
+import pages.TestBase;
+
+public class LoginStepDefination extends TestBase {
+	
+	@Before
+	public void beforeRun() {
+		init();
+		//LoginPage loginpage = PageFactory.initElements(driver, LoginPage.class);
+		LoginPage loginpage = PageFactory.initElements(null, getClass());		
+	}
+
+	@After
+	public void afterRun() {
+		tearDown();
+		
+	}
+	
+}

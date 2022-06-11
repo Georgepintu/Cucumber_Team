@@ -1,0 +1,11 @@
+package pages;
+
+public class LoginPage {
+	WebDriver driver;
+	
+	//Elements List
+	public void name() {
+		
+	}
+
+}

@@ -1,0 +1,16 @@
+package steps;
+
+import org.junit.Before;
+
+import pages.TestBase;
+
+public class LoginStepDefination extends TestBase {
+	
+	@Before
+	public void beforeRun() {
+		init();
+		
+		
+	}
+
+}

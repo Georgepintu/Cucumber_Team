@@ -1,0 +1,17 @@
+package pages;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.How;
+
+public class LoginPage {
+	WebDriver driver;
+	
+	//Elements List
+	
+	@FindBy(how=How.XPATH, using="")
+	
+	public void name() {
+		
+	}
+
+}

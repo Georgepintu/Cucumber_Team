@@ -1,0 +1,18 @@
+package steps;
+
+import cucumber.api.java.Before;
+import pages.TestBase;
+
+public class LoginStepDefination extends TestBase {
+	
+	@Before
+	public void beforeRun() {
+		init();
+				
+	}
+
+	public void afterRun() {
+		tearDown();
+		
+	}
+}

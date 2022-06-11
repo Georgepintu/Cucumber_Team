@@ -1,0 +1,9 @@
+package pages;
+
+public class TestBase {
+	
+	public void init() {
+	System.getProperty("webdriver.chrome.driver", "Driver\\chromedriver.exe");
+	}
+
+}

@@ -1,0 +1,13 @@
+package steps;
+
+import pages.TestBase;
+
+public class LoginStepDefination extends TestBase {
+	
+	public void beforeRun() {
+		init
+		
+		
+	}
+
+}

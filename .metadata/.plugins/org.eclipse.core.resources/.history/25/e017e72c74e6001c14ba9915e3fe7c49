@@ -1,0 +1,12 @@
+package util;
+
+public class BrowserFactory {
+	
+	public void init() {
+		System.setProperty("webdriver.chrome.driver", "Drivers\\chromedriver.exe");
+		WebDriver driver = new Chromedriver
+		
+		
+	}
+
+}
